@@ -20,22 +20,18 @@
     background-size: cover; 
     background-position: center;
     height: 100vh;
-    width: 40vw;
+    width: 35vw;
 }
 
 .banner{
     display: flex;
     margin-top: 20vh;
-    width: 40vw;
+    width: 35vw;
     height: 15vh;
     background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
     justify-content: center;
 }
-.preFormText{
-
-}
-
 .logoText{
     font-family: 'odin-font', sans-serif;
     font-size: 5em;
@@ -44,9 +40,58 @@
 .logo{
     height: 13vh;
 }
+
 .rightContainer{
     display: flex;
-    width: 60vw;
-    background-color: aliceblue;
+    width: 65vw;
+    background-color: rgb(241, 241, 241);
     flex-direction: column;
+
 }
+
+.preFormContainer{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    gap: 1em;
+}
+.preFormText{
+    font-weight: 800;
+    font-size: 1.5em;
+    padding-right: 60px;
+}
+
+.formRow{
+    display: flex;
+    gap: 2em;
+}
+
+.formContainer{
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Adding shadow to the bottom */
+}
+
+.inputBox{
+    height: 25px;
+    border: 1px solid;
+    border-color: #dddee0;
+    border-radius: 0.5em;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+label{
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(54, 54, 54);
+}
+

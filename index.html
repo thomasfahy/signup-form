@@ -27,8 +27,40 @@
                 <p class="preFormText">You <em>know</em> you want to</p>
             </div>
             <div class="formContainer">
-                <form action="blank" method="post">
+                <form class="signUpForm" action="blank" method="post">
+                    <ul>
+                        <div class="formRow">
+                            <li>
+                                <label for="fname">First Name</label>
+                                <input class="inputBox" type="text" id="fname" name="first_name" />
+                            </li>
+                            <li>
+                                <label for="lname">Last Name</label>
+                                <input class="inputBox" type="text" id="lname" name="last_name" />
+                            </li>
+                        </div>
+                        <div class="formRow">
+                            <li>
+                                <label for="email">Email</label>
+                                <input class="inputBox" type="email" id="mail" name="user_email" />
+                            </li>
+                            <li>
+                                <label for="phone">Phone Number</label>
+                                <input class="inputBox" type="text" id="phone" name="user_phone_number" />
+                            </li>
+                        </div>
+                        <div class="formRow">
+                            <li>
+                                <label for="password">Password</label>
+                                <input class="inputBox" type="password" id="password" name="user_password" />
+                            </li>
+                            <li>
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input class="inputBox" type="password" id="confirmPassword" name="confirm_password" />
+                            </li>
+                        </div>
 
+                    </ul>
                 </form>
             </div>
 
