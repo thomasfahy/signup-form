@@ -60,6 +60,8 @@
     font-weight: 800;
     font-size: 1.5em;
     padding-right: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(54, 54, 54);
 }
 
 .formRow{
@@ -68,7 +70,7 @@
 }
 
 .formContainer{
-    margin-top: 2em;
+    margin-top: 4em;
     padding-top: 2em;
     padding-bottom: 2em;
     background-color: white;
@@ -88,10 +90,21 @@ li{
     width: 20vw;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
+    gap: 0.2em;
 }
 label{
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(54, 54, 54);
 }
-
+.signUpText{
+    margin-left: 1.3em;
+    margin-bottom: 0.7em;
+    font-weight: 800;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(54, 54, 54);
+}
+.submitButton{
+    
+}
