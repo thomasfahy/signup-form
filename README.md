@@ -1,2 +1,2 @@
 # signup-form
-www.thomasfahy.github.io/signup-form
+https://thomasfahy.github.io/signup-form/
